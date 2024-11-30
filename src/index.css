@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #302e2b;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+#root{
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 4fr;
+  height: 100vh;
+  grid-template-areas:
+    "navbar main main"
+    "navbar main main"
+    "navbar main main";
+}
+
+
+.navbar {
+  grid-area: navbar;
+}
+
+.main {
+  grid-area: main;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #262522;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262522;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 6px;
+  border: 0px none #ffffff;
+}

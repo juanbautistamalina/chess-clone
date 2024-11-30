@@ -1,0 +1,46 @@
+.aside {
+  color: #fff;
+  /* padding: 20px 40px; */
+  width: 330px;
+  height: 95vh;
+  max-width: 400px;
+  background: #262522;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.aside h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 800;
+  background: #21201d;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.play-logo {
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar-fixed {
+  background: #262522;
+  position: sticky;
+  top: 0;
+}
+

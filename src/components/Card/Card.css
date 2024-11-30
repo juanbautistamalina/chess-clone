@@ -1,0 +1,33 @@
+.card{
+    border-radius: 8px;
+    background: #1e1e1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    cursor: pointer;
+}
+
+.card .card-icon{
+    height: 50px;
+} 
+
+.card .card-info{
+    padding: 10px;
+    width: 60%;
+}
+
+.card .card-info h3{
+    margin-bottom: 0;
+}
+
+
+.card .card-info p{
+    font-size: 0.7em;
+}
+
+
+/* .card .card-info p{
+    font-size: 0.8em;
+} */
