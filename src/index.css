@@ -8,10 +8,9 @@ body {
   background: #302e2b;
   width: 100%;
   min-height: 100vh;
-
 }
 
-#root{
+#root {
   display: grid;
   grid-template-columns: minmax(200px, 1fr) 4fr;
   height: 100vh;
@@ -21,13 +20,18 @@ body {
     "navbar main main";
 }
 
-
 .navbar {
   grid-area: navbar;
 }
 
 .main {
   grid-area: main;
+}
+
+/* Evitar arrastrado de imágenes */
+img {
+  pointer-events: none;
+  user-select: none;
 }
 
 /* ===== Scrollbar CSS ===== */
